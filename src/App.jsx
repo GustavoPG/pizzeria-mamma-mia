@@ -2,7 +2,6 @@ import './App.css';
 import PizzasProvider from './contexts/PizzasContext';
 import { Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
-//import Footer from './components/Footer';
 import Home from './views/Home';
 import NotFound from './views/NotFound';
 import Pizza from './views/Pizza';
