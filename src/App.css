@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a {
+  text-decoration: none;
+  margin: auto 0;
+  font-weight: bold;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+
+}
+
+.active {
+  color: rgb(186, 44, 44);
+  font-weight: bold;
+}
+
+.my-footer {
+  background-color: #1fa7d0;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 1rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  margin-top: 5rem;
+}
+
+.my-detalle-pizza {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 3rem;
+  margin: 4rem 2rem;
+}
+
+.my-cart {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.my-carrito-image {
+  width: 8rem;
+}
+
+.my-button {
+  width: 38px;
+}
+
+.my-total {
+  color: green;
+}
+
+.my-bg {
+  background-color: #1fa7d0;
+}
+
+.my-banner {
+  width: 100vw;
+  height: 16rem;
+  margin-bottom: 4rem;
+}
+
+.container-banner {
+  position: relative;
+  display: inline-block;
+
+}
+
+.container-banner img {
+  filter: brightness(50%); 
+}
+
+.texto-encima {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+}
